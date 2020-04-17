@@ -1,0 +1,27 @@
+.shop {
+  padding-bottom: 7rem;
+
+  &__heading {
+    display: inline-flex;
+    align-items: center;
+
+    color: #8C8C8C;
+
+    margin-bottom: 2.75rem;
+
+    &-title {
+      font-family: $roboto;
+      font-size: 2rem;
+      font-weight: 700;
+      color: $black;
+
+      margin-right: 1.75rem;
+    }
+  }
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

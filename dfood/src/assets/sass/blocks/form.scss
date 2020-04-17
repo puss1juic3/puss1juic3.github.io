@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  align-items: center;
+
+  padding: .5rem .687rem;
+
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  background: $white;
+
+  color: #BFBFBF;
+
+  transition: all .15s ease;
+
+  &__icon {
+    width: 1.125rem;
+    height: 1.125rem;
+
+    fill: $dark-gray;
+
+    margin-right: .687rem;
+
+    transition: all .15s ease;
+
+  }
+
+  &__input {
+    width: 100%;
+
+    font-family: $sfpro;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &::placeholder {
+      color: #BFBFBF;
+    }
+    
+  }
+
+  &.active {
+    border-color: $black;
+    color: #181818;
+
+    .form__icon {
+      fill: $black;
+    }
+  }
+
+  &--header {
+    @include media-breakpoint-only('xs') {
+      order: 1;
+      margin: 1.5rem 1rem 0;
+    }
+  }
+
+}
+
+@include media-breakpoint-only('xs') {
+    .form__input--rest::placeholder {
+      color: transparent;
+    }
+}

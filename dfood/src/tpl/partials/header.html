@@ -1,0 +1,26 @@
+<!--=== Header section ===-->
+<header class="header row">
+    <div class="d-flex col-md-2 col-sm-3 col-6 align-items-center">
+        {{> logo }}
+    </div>
+    <form action="#" class="form form--header col-lg-7 col-md-6 col-sm-6 col-xs-12">
+        <svg class="form__icon">
+            <use xlink:href="#form-home"></use>
+        </svg>
+        <input class="form__input form__input" type="text" placeholder="Адрес доставки"/>
+    </form>
+    <div class="header__buttons col-lg-3 col-md-4 col-sm-3 col-6">
+        <button class="btn --blue">
+            <svg class="btn__icon">
+                <use xlink:href="#btn-user"></use>
+            </svg>
+            <span class="btn__text">Войти</span>
+        </button>
+        <button class="btn">
+            <svg class="btn__icon --cart">
+                <use xlink:href="#btn-cart"></use>
+            </svg>
+            <span class="btn__text">Корзина</span>
+        </button>
+    </div>
+</header>

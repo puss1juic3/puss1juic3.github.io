@@ -1,0 +1,23 @@
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+  transition: all .2s ease;
+  &:hover {
+    opacity: .7;
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+
+    margin-right: .6875rem;
+  }
+
+  &__text {
+    font-family: $roboto;
+    font-size: .9375rem;
+    color: $black;
+  }
+}

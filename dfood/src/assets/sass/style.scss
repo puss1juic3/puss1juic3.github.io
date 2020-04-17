@@ -1,0 +1,49 @@
+/* ===== Style reset ===== */   
+@import "../../../node_modules/normalize.scss/normalize.scss";
+
+/* ===== Bootstrap grid ===== */
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+/* ===== Template vars ===== */
+@import "vars";
+
+/* ===== Default styles ===== */
+@import "reset.scss";
+
+/* ===== Fonts ===== */
+@import "blocks/fonts.scss";
+
+:root {
+    font-size: 16px;
+}
+
+html,body {
+	width: 100%;
+	line-height: 1;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background: linear-gradient(180deg, rgba(245, 245, 245, 0) 30%, #F5F5F5 100%);
+}
+
+/* ===== SCSS Section ===== */
+
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/restaurants.scss";
+@import "blocks/footer.scss";
+
+@import "blocks/shop.scss";
+
+/* ===== SCSS Blocks ===== */
+
+@import "blocks/logo.scss";
+@import "blocks/btn.scss";
+@import "blocks/form.scss";
+@import "blocks/restaurant.scss";
+@import "blocks/product.scss";
+
+
+
+
+
